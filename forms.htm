@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ababab;
+        }
+
+        .form-container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 6px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 15px;
+            width: 100%;
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Contact Form</h2>
+
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter your password">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
